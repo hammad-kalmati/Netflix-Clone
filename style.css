@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 585px;
+    background-image: url(assets/images/bg-img-3.png);
+}
+
+/* NETFLIX-LOGO & SIGN-IN BUTTON CONTAINER */
+.main-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    width: 77%;
+    justify-self: center;
+}
+
+/* NETFLIX LOGO */
+.logo {
+    fill: red;
+    height: 40px;
+}
+
+/* SIGN IN BUTTON */
+.sign-in-btn {
+    border: 1px solid #E50914;
+    background-color: #E50914;
+    color: white;
+    padding: 8px 17px;
+    font-weight: bold;
+    border-radius: 3.5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* SIGN IN BUTTON HOVER*/
+.sign-in-btn:hover {
+    background-color: #C11119;
+    border-color: #C11119;
+    transition: 0.3s;
+}
+
+/* TEXT, INPUT & BUTTON CONTAINER */
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+/* TEXT BOX */
+.text-box {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* TEXT HEADING */
+.text-box h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 52px;
+    letter-spacing: -1px;
+    line-height: 62px;
+}
+
+/* TEXT PARAGRAPH 01 */
+.text-box .para-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+}
+
+/*  TEXT PARAGRAPH 02 */
+.text-box .para-2 {
+    color: white;
+    line-height: 50px;
+    font-weight: normal;
+}
+
+/* INPUT & BUTTON BOX */
+.input-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* EMAIL INPUT FIELD */
+.input-field {
+    border: 1px solid #5E5E5E;
+    background-color: #141316;
+    height: 55px;
+    width: 370px;
+    border-radius: 3.5px;
+    padding-left: 13px;
+    font-size: 15px;
+    color: white;
+}
+
+/* GET STARTED BUTTON */
+.get-started-btn {
+    border: 1px solid #E50914;
+    background-color: #E50914;
+    color: white;
+    height: 55px;
+    width: 220px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 3.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* GET STARTED BUTTON HOVER */
+.get-started-btn:hover {
+    background-color: #C11119;
+    border-color: #C11119;
+}
+
+/* MEDIA QUEIRY FOR TABLETS */
+@media screen and (max-width: 1023px) {
+    .logo {
+        fill: red;
+        height: 25px;
+    }
+
+    /* SIGN IN BUTTON */
+    .sign-in-btn {
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    /* NETFLIX-LOGO & SIGN-IN BUTTON CONTAINER */
+    .main-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 85px;
+        width: 83%;
+        justify-self: center;
+    }
+
+    /* TEXT HEADING */
+    .text-box h1 {
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 35px;
+    }
+
+    /* TEXT PARAGRAPH 01 */
+    .text-box .para-1 {
+        color: white;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+    /*  TEXT PARAGRAPH 02 */
+    .text-box .para-2 {
+        color: white;
+        line-height: normal;
+        margin-top: 12px;
+        width: 100vh;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+        font-weight: normal;
+    }
+
+    /* INPUT & BUTTON BOX */
+    .input-btn-box {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    /* EMAIL INPUT FIELD */
+    .input-field {
+        border: 1px solid #5E5E5E;
+        background-color: #141316;
+        height: 45px;
+        width: 240px;
+        border-radius: 3.5px;
+        padding-left: 13px;
+        font-size: 12.5px;
+        color: white;
+    }
+
+    /* GET STARTED BUTTON */
+    .get-started-btn {
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        color: white;
+        height: 45px;
+        width: 175px;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 3.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* GET STARTED BUTTON SVG */
+    .get-started-btn svg {
+        height: 17px;
+        width: 17px;
+    }
+}
+
+/* MEDIA QUEIRY FOR MOBILES */
+@media screen and (max-width: 767px) {
+
+    /* NETFLIX LOGO */
+    .logo {
+        fill: red;
+        height: 25px;
+    }
+
+    /* SIGN IN BUTTON */
+    .sign-in-btn {
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    /* NETFLIX-LOGO & SIGN-IN BUTTON CONTAINER */
+    .main-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 85px;
+        width: 83%;
+        justify-self: center;
+    }
+
+    /* TEXT HEADING */
+    .text-box h1 {
+        color: white;
+        font-weight: bolder;
+        font-size: 28px;
+        letter-spacing: -1px;
+        line-height: 35px;
+    }
+
+    /* TEXT PARAGRAPH 01 */
+    .text-box .para-1 {
+        color: white;
+        font-weight: normal;
+        font-size: 15.5px;
+        line-height: 35px;
+    }
+
+    /*  TEXT PARAGRAPH 02 */
+    .text-box .para-2 {
+        color: white;
+        line-height: normal;
+        margin-top: 12px;
+        width: 100vh;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+        font-weight: normal;
+    }
+
+    /* INPUT & BUTTON BOX */
+    .input-btn-box {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    /* EMAIL INPUT FIELD */
+    .input-field {
+        border: 1px solid #5E5E5E;
+        background-color: #141316;
+        height: 45px;
+        width: 240px;
+        border-radius: 3.5px;
+        padding-left: 13px;
+        font-size: 12.5px;
+        color: white;
+    }
+
+    /* GET STARTED BUTTON */
+    .get-started-btn {
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        color: white;
+        height: 45px;
+        width: 155px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 3.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* GET STARTED BUTTON SVG */
+    .get-started-btn svg {
+        height: 17px;
+        width: 17px;
+    }
+}
+
+
+/* MEDIA QUEIRY FOR SMALL MOBILES */
+@media screen and (max-width: 500px) {
+
+    /* NETFLIX LOGO */
+    .logo {
+        fill: red;
+        height: 25px;
+    }
+
+    /* SIGN IN BUTTON */
+    .sign-in-btn {
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    /* NETFLIX-LOGO & SIGN-IN BUTTON CONTAINER */
+    .main-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 85px;
+        width: 83%;
+        justify-self: center;
+    }
+
+    /* TEXT HEADING */
+    .text-box h1 {
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        letter-spacing: -1px;
+        line-height: 30px;
+        flex-wrap: wrap;
+    }
+
+    /* TEXT PARAGRAPH 01 */
+    .text-box .para-1 {
+        color: white;
+        font-weight: normal;
+        font-size: 15.5px;
+        line-height: 35px;
+    }
+
+    /*  TEXT PARAGRAPH 02 */
+    .text-box .para-2 {
+        color: white;
+        line-height: normal;
+        margin-top: 12px;
+        width: 100%;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+        font-weight: normal;
+    }
+
+    /* INPUT & BUTTON BOX */
+    .input-btn-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    /* EMAIL INPUT FIELD */
+    .input-field {
+        border: 1px solid #5E5E5E;
+        background-color: #141316;
+        height: 45px;
+        width: 240px;
+        border-radius: 3.5px;
+        padding-left: 13px;
+        font-size: 12.5px;
+        color: white;
+    }
+
+    /* GET STARTED BUTTON */
+    .get-started-btn {
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        color: white;
+        height: 45px;
+        width: 155px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 3.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* GET STARTED BUTTON SVG */
+    .get-started-btn svg {
+        height: 17px;
+        width: 17px;
+    }
+}
