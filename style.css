@@ -5,9 +5,10 @@
 }
 
 header {
-    height: 585px;
+    height: 430px;
     background-image: url(assets/images/bg-img-3.png);
     padding: 0px 15px;
+    border-bottom: 1px solid black;
 }
 
 /* NETFLIX-LOGO & SIGN-IN BUTTON CONTAINER */
@@ -482,7 +483,7 @@ header {
         background-color: #E50914;
         color: white;
         height: 40px;
-        width: 204px;
+        width: 190px;
         font-size: 16px;
         font-weight: bold;
         border-radius: 3.5px;
